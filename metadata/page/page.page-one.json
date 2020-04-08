@@ -1,0 +1,160 @@
+{
+  "_id": "page.page-one",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.page-one--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.page-one--fieldset--text.auto_name__1",
+          "_type": "text",
+          "label": "Company name",
+          "name": "auto_name__1",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "_id": "page.page-one--fieldset--radios.auto_name__2",
+          "_type": "radios",
+          "items": [
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__1",
+              "_type": "radio",
+              "label": "Limited Company",
+              "value": "auto_value__1"
+            },
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__2",
+              "_type": "radio",
+              "hint": "Also known as an LLP",
+              "label": "Limited Liability Partnership",
+              "value": "auto_value__2"
+            },
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__3",
+              "_type": "radio",
+              "hint": "Also known as a CIC",
+              "label": "Community Interest Company",
+              "value": "auto_value__3"
+            },
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__4",
+              "_type": "radio",
+              "hint": "Also known as a CIO",
+              "label": "Charitable Incorporated Organisation",
+              "value": "auto_value__4"
+            },
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__5",
+              "_type": "radio",
+              "hint": "Also known as a Co-op",
+              "label": "Co-operative Society",
+              "value": "auto_value__5"
+            },
+            {
+              "$component": true,
+              "$definition": true,
+              "$option": true,
+              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__6",
+              "_type": "radio",
+              "hint": "Also known as a BenCom",
+              "label": "Community Benefit Society",
+              "value": "auto_value__6"
+            }
+          ],
+          "legend": "Legal form",
+          "name": "auto_name__2"
+        },
+        {
+          "_id": "page.page-one--fieldset--fieldset",
+          "_type": "fieldset",
+          "components": [
+            {
+              "$component": true,
+              "$control": true,
+              "$definition": true,
+              "$field": true,
+              "_id": "page.page-one--fieldset--fieldset--text.auto_name__3",
+              "_type": "text",
+              "label": "Address",
+              "name": "auto_name__3"
+            },
+            {
+              "$component": true,
+              "$control": true,
+              "$definition": true,
+              "$field": true,
+              "_id": "page.page-one--fieldset--fieldset--text.auto_name__4",
+              "_type": "text",
+              "label": "Postcode",
+              "name": "auto_name__4"
+            },
+            {
+              "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5",
+              "_type": "radios",
+              "items": [
+                {
+                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__7",
+                  "_type": "radio",
+                  "label": "Privately registered company",
+                  "value": "auto_value__7"
+                },
+                {
+                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__8",
+                  "_type": "radio",
+                  "hint": "Select this if shares in the company’s stock are publicly traded on a stock exchange",
+                  "label": "Publicly listed company",
+                  "value": "auto_value__8"
+                },
+                {
+                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__9",
+                  "_type": "radio",
+                  "hint": "Select this if this entity is not a private, registered company or a publicly listed company.",
+                  "label": "Other legal entity",
+                  "value": "auto_value__9"
+                }
+              ],
+              "legend": "Type of company or entity",
+              "name": "auto_name__5"
+            }
+          ],
+          "hint": "Registered office for legal entities",
+          "legend": "Contact address"
+        }
+      ],
+      "legend": "Full legal company name"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Company declaration",
+  "url": "company"
+}

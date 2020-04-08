@@ -1,0 +1,11 @@
+{
+  "_id": "page.other-legal-entities",
+  "_type": "page.form",
+  "heading": "Other legal entities",
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "auto_value__9"
+  },
+  "url": "other-legal-entities"
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "page.public-company",
+  "_type": "page.form",
+  "heading": "Publicly listed companies",
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "auto_value__8"
+  },
+  "url": "public-company"
+}

@@ -1,0 +1,171 @@
+{
+  "_id": "page.private-company",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "$select": true,
+      "_id": "page.private-company--autocomplete.auto_name__6",
+      "_type": "autocomplete",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--2",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--3",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--4",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--5",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--6",
+          "_type": "option"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.private-company--autocomplete.auto_name__6--option--7",
+          "_type": "option"
+        }
+      ],
+      "label": "Country of registration",
+      "name": "auto_name__6"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.private-company--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.private-company--fieldset--text.auto_name__7",
+          "_type": "text",
+          "hint": "Please supply either the org-id code for the registration authority (visit [http://org-id.guide](http://org-id.guide)) or supply the name of the registering authority (registrar) if there is no org-id entry.",
+          "label": "Registration authority",
+          "name": "auto_name__7"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.private-company--fieldset--text.auto_name__8",
+          "_type": "text",
+          "hint": "This is the unique ID of the company as issued by the registration authority.",
+          "label": "ID number or reference",
+          "name": "auto_name__8"
+        }
+      ],
+      "legend": "Company registration ID"
+    },
+    {
+      "_id": "page.private-company--radios.auto_name__9",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.private-company--radios.auto_name__9--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.private-company--radios.auto_name__9--radio.auto_value__9--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__9"
+        }
+      ],
+      "legend": "Does the company have one or more companies amongst its legal owners?",
+      "name": "auto_name__9"
+    },
+    {
+      "_id": "page.private-company--radios.auto_name__10",
+      "_type": "radios",
+      "hint": "A reportable company is a publicly listed company whose level of ownership and control over the disclosing entity (direct or indirect) meets the thresholds and criteria that qualify a natural person as a beneficial owner. So a reportable company is:\r\n\r\n<<Local definition here>>",
+      "items": [
+        {
+          "_id": "page.private-company--radios.auto_name__10--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.private-company--radios.auto_name__10--radio.auto_value__9--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__9"
+        }
+      ],
+      "legend": "Do any publicly listed companies have interests in the declaring company that makes them reportable?",
+      "name": "auto_name__10"
+    },
+    {
+      "_id": "page.private-company--radios.auto_name__11",
+      "_type": "radios",
+      "hint": "“A beneficial owner in respect of a company means the natural person(s) who directly or indirectly ultimately owns or controls the corporate entity” (EITI Standard, 2.5.f.i)\r\n\r\n“The multi-stakeholder group should agree an appropriate definition of the term beneficial owner. The definition should be aligned with (f)(i) above and take international norms and relevant national laws into account, and should include ownership threshold(s). The definition should also specify reporting obligations for politically exposed persons.” (EITI Standard, 2.5.f.ii)",
+      "items": [
+        {
+          "_id": "page.private-company--radios.auto_name__11--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.private-company--radios.auto_name__11--radio.auto_value__9--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__9"
+        }
+      ],
+      "legend": "Does the company have one or more beneficial owners?",
+      "name": "auto_name__11"
+    }
+  ],
+  "heading": "Privately registered companies",
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "auto_value__7"
+  },
+  "url": "private-company"
+}
