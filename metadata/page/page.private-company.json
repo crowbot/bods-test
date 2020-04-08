@@ -59,6 +59,14 @@
           "$option": true,
           "_id": "page.private-company--autocomplete.auto_name__6--option--7",
           "_type": "option"
+        },
+        {
+          "_id": "page.private-company--autocomplete.auto_name__6--option--8",
+          "_type": "option"
+        },
+        {
+          "_id": "page.private-company--autocomplete.auto_name__6--option--9",
+          "_type": "option"
         }
       ],
       "label": "Country of registration",
