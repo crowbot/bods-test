@@ -1,0 +1,49 @@
+{
+  "_id": "page.beneficial-ownership",
+  "_type": "page.form",
+  "body": "This page should be completed for each beneficial owner of the declaring company.",
+  "components": [
+    {
+      "_id": "page.beneficial-ownership--radios.auto_name__12",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Known person",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Unknown person",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__11",
+          "_type": "radio",
+          "label": "Anonymous person",
+          "value": "auto_value__11"
+        }
+      ],
+      "legend": "Status of beneficial owner",
+      "name": "auto_name__12"
+    },
+    {
+      "_id": "page.beneficial-ownership--section",
+      "_type": "section",
+      "components": [
+        {
+          "_id": "page.beneficial-ownership--section--text.auto_name__13",
+          "_type": "text",
+          "label": "Test",
+          "name": "auto_name__13",
+          "repeatable": true
+        }
+      ]
+    }
+  ],
+  "heading": "Beneficial owner declaration",
+  "lede": "A beneficial owner is defined as: <<Add local definition here, including PEP reporting obligations>>",
+  "url": "beneficial-ownership"
+}
