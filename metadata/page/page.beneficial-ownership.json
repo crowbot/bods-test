@@ -4,22 +4,34 @@
   "body": "This page should be completed for each beneficial owner of the declaring company.",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.beneficial-ownership--radios.auto_name__12",
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__9",
           "_type": "radio",
           "label": "Known person",
           "value": "auto_value__9"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__10",
           "_type": "radio",
           "label": "Unknown person",
           "value": "auto_value__10"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__11",
           "_type": "radio",
           "label": "Anonymous person",
@@ -30,20 +42,50 @@
       "name": "auto_name__12"
     },
     {
-      "_id": "page.beneficial-ownership--section",
-      "_type": "section",
-      "components": [
+      "_id": "page.beneficial-ownership--radios.auto_name__13",
+      "_type": "radios",
+      "items": [
         {
-          "_id": "page.beneficial-ownership--section--text.auto_name__13",
-          "_type": "text",
-          "label": "Test",
-          "name": "auto_name__13",
-          "repeatable": true
+          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__12",
+          "_type": "radio",
+          "label": "The declaring company cannot confirm or identify a/this beneficial owner",
+          "value": "auto_value__12"
+        },
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__13",
+          "_type": "radio",
+          "label": "The beneficial owner has not provided information",
+          "value": "auto_value__13"
+        },
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__14",
+          "_type": "radio",
+          "label": "The beneficial owner is exempt from having their identity disclosed",
+          "value": "auto_value__14"
+        },
+        {
+          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__15",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__15--text.auto_name__14",
+            "_type": "text",
+            "label": "Provide more details here if necessary",
+            "name": "auto_name__14"
+          },
+          "label": "Other",
+          "value": "auto_value__15"
         }
-      ]
+      ],
+      "legend": "Why is this person anonymous or their identity unknown?",
+      "name": "auto_name__13"
     }
   ],
   "heading": "Beneficial owner declaration",
   "lede": "A beneficial owner is defined as: <<Add local definition here, including PEP reporting obligations>>",
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "auto_value__7"
+  },
   "url": "beneficial-ownership"
 }
