@@ -83,9 +83,9 @@
   "heading": "Beneficial owner declaration",
   "lede": "A beneficial owner is defined as: <<Add local definition here, including PEP reporting obligations>>",
   "show": {
-    "identifier": "auto_name__5",
+    "identifier": "type-of-company",
     "operator": "is",
-    "value": "auto_value__7"
+    "value": "privately-registered-company"
   },
   "url": "beneficial-ownership"
 }

@@ -207,9 +207,9 @@
   ],
   "heading": "Privately registered companies",
   "show": {
-    "identifier": "auto_name__5",
+    "identifier": "type-of-company",
     "operator": "is",
-    "value": "auto_value__7"
+    "value": "privately-registered-company"
   },
   "url": "private-company"
 }

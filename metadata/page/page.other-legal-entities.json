@@ -3,9 +3,9 @@
   "_type": "page.form",
   "heading": "Other legal entities",
   "show": {
-    "identifier": "auto_name__5",
+    "identifier": "type-of-company",
     "operator": "is",
-    "value": "auto_value__9"
+    "value": "other-legal-entity"
   },
   "url": "other-legal-entities"
 }

@@ -126,25 +126,25 @@
                   "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__7",
                   "_type": "radio",
                   "label": "Privately registered company",
-                  "value": "auto_value__7"
+                  "value": "privately-registered-company"
                 },
                 {
                   "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__8",
                   "_type": "radio",
                   "hint": "Select this if shares in the company’s stock are publicly traded on a stock exchange",
                   "label": "Publicly listed company",
-                  "value": "auto_value__8"
+                  "value": "publicly-listed-company"
                 },
                 {
                   "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__9",
                   "_type": "radio",
                   "hint": "Select this if this entity is not a private, registered company or a publicly listed company.",
                   "label": "Other legal entity",
-                  "value": "auto_value__9"
+                  "value": "other-legal-entity"
                 }
               ],
               "legend": "Type of company or entity",
-              "name": "auto_name__5"
+              "name": "type-of-company"
             }
           ],
           "hint": "Registered office for legal entities",

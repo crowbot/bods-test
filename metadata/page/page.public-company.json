@@ -3,9 +3,9 @@
   "_type": "page.form",
   "heading": "Publicly listed companies",
   "show": {
-    "identifier": "auto_name__5",
+    "identifier": "type-of-company",
     "operator": "is",
-    "value": "auto_value__8"
+    "value": "publicly-listed-company"
   },
   "url": "public-company"
 }
