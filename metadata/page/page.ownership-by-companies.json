@@ -1,0 +1,94 @@
+{
+  "_id": "page.ownership-by-companies",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.ownership-by-companies--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.ownership-by-companies--fieldset--text.auto_name__6",
+          "_type": "text",
+          "label": "Company’s legal name",
+          "name": "auto_name__6"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.ownership-by-companies--fieldset--text.auto_name__7",
+          "_type": "text",
+          "label": "Company’s legal form",
+          "name": "auto_name__7"
+        },
+        {
+          "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8",
+          "_type": "autocomplete",
+          "items": [
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8--option",
+              "_type": "option",
+              "text": "UK",
+              "value": "uk"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8--option--2",
+              "_type": "option"
+            }
+          ],
+          "label": "Country of registration",
+          "name": "auto_name__8"
+        },
+        {
+          "_id": "page.ownership-by-companies--fieldset--radios.auto_name__9",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.ownership-by-companies--fieldset--radios.auto_name__9--radio.auto_value__7",
+              "_type": "radio",
+              "label": "Privately registered company",
+              "value": "auto_value__7"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--radios.auto_name__9--radio.auto_value__8",
+              "_type": "radio",
+              "label": "Publicly listed company",
+              "value": "auto_value__8"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--radios.auto_name__9--radio.auto_value__16",
+              "_type": "radio",
+              "label": "Other legal entity",
+              "value": "auto_value__16"
+            }
+          ],
+          "legend": "Type of company",
+          "name": "auto_name__9"
+        },
+        {
+          "_id": "page.ownership-by-companies--fieldset--text.auto_name__10",
+          "_type": "text",
+          "label": "Percentage share of ownership",
+          "name": "auto_name__10"
+        }
+      ],
+      "legend": "Company",
+      "namespace": "namespace_auto__2",
+      "repeatable": true,
+      "repeatableAdd": "Add another company"
+    }
+  ],
+  "heading": "Legal ownership by companies and enterprises",
+  "lede": "Tell us more about the company, or companies, that hold ownership of the declaring company.",
+  "show": {
+    "identifier": "owned-by-companies",
+    "operator": "is",
+    "value": "yes"
+  },
+  "url": "ownership-by-companies"
+}

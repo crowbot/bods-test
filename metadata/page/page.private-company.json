@@ -205,11 +205,15 @@
       "name": "has-beneficial-owners"
     }
   ],
+  "enableSteps": true,
   "heading": "Privately registered companies",
   "show": {
     "identifier": "type-of-company",
     "operator": "is",
     "value": "privately-registered-company"
   },
+  "steps": [
+    "page.ownership-by-companies"
+  ],
   "url": "private-company"
 }
