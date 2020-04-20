@@ -213,7 +213,9 @@
     "value": "privately-registered-company"
   },
   "steps": [
-    "page.ownership-by-companies"
+    "page.ownership-by-companies",
+    "page.reportable-company",
+    "page.beneficial-ownership"
   ],
   "url": "private-company"
 }

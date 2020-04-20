@@ -6,7 +6,6 @@
   "lede": "A demo form for collecting company beneficial ownership information",
   "steps": [
     "page.company",
-    "page.beneficial-ownership",
     "page.state-ownership",
     "page.attestation"
   ],

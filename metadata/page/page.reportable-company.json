@@ -1,0 +1,76 @@
+{
+  "_id": "page.reportable-company",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.reportable-company--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.reportable-company--fieldset--radios.auto_name__11",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.reportable-company--fieldset--radios.auto_name__11--radio.auto_value__17",
+              "_type": "radio",
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "_id": "page.reportable-company--fieldset--radios.auto_name__11--radio.auto_value__18",
+              "_type": "radio",
+              "label": "No",
+              "value": "no"
+            }
+          ],
+          "legend": "Is this reportable company a direct legal owner of the declaring company?",
+          "name": "is-direct-legal-owner",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "_id": "page.reportable-company--fieldset--fieldset",
+          "_type": "fieldset",
+          "components": [
+            {
+              "_id": "page.reportable-company--fieldset--fieldset--text.auto_name__11",
+              "_type": "text",
+              "label": "Company legal name",
+              "name": "auto_name__11"
+            },
+            {
+              "_id": "page.reportable-company--fieldset--fieldset--text.auto_name__24",
+              "_type": "text",
+              "label": "Legal form",
+              "name": "auto_name__24"
+            },
+            {
+              "_id": "page.reportable-company--fieldset--fieldset--text.auto_name__25",
+              "_type": "text",
+              "label": "Legal Entity Identifier (LEI)",
+              "name": "auto_name__25"
+            },
+            {
+              "_id": "page.reportable-company--fieldset--fieldset--text.auto_name__26",
+              "_type": "text",
+              "label": "International Securities Identifying Number (ISIN)",
+              "name": "auto_name__26"
+            }
+          ]
+        }
+      ],
+      "legend": "Company",
+      "namespace": "namespace_auto__3",
+      "repeatable": true
+    }
+  ],
+  "heading": "Reportable companies",
+  "lede": "A reportable company is a publicly listed company whose level of ownership and control over the declaring entity (direct or indirect) meets the thresholds and criteria that qualify a natural person as a beneficial owner.",
+  "show": {
+    "identifier": "plc-interests",
+    "operator": "is",
+    "value": "yes"
+  },
+  "url": "reportable-company"
+}
