@@ -1,5 +1,5 @@
 {
-  "_id": "page.page-one",
+  "_id": "page.company",
   "_type": "page.form",
   "components": [
     {
@@ -8,7 +8,7 @@
       "$definition": true,
       "$fieldset": true,
       "$grouping": true,
-      "_id": "page.page-one--fieldset",
+      "_id": "page.company--fieldset",
       "_type": "fieldset",
       "components": [
         {
@@ -16,7 +16,7 @@
           "$control": true,
           "$definition": true,
           "$field": true,
-          "_id": "page.page-one--fieldset--text.auto_name__1",
+          "_id": "page.company--fieldset--text.auto_name__1",
           "_type": "text",
           "label": "Company name",
           "name": "auto_name__1",
@@ -28,14 +28,14 @@
           "$component": true,
           "$control": true,
           "$definition": true,
-          "_id": "page.page-one--fieldset--radios.auto_name__2",
+          "_id": "page.company--fieldset--radios.auto_name__2",
           "_type": "radios",
           "items": [
             {
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__1",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__1",
               "_type": "radio",
               "label": "Limited Company",
               "value": "auto_value__1"
@@ -44,7 +44,7 @@
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__2",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__2",
               "_type": "radio",
               "hint": "Also known as an LLP",
               "label": "Limited Liability Partnership",
@@ -54,7 +54,7 @@
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__3",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__3",
               "_type": "radio",
               "hint": "Also known as a CIC",
               "label": "Community Interest Company",
@@ -64,7 +64,7 @@
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__4",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__4",
               "_type": "radio",
               "hint": "Also known as a CIO",
               "label": "Charitable Incorporated Organisation",
@@ -74,7 +74,7 @@
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__5",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__5",
               "_type": "radio",
               "hint": "Also known as a Co-op",
               "label": "Co-operative Society",
@@ -84,7 +84,7 @@
               "$component": true,
               "$definition": true,
               "$option": true,
-              "_id": "page.page-one--fieldset--radios.auto_name__2--radio.auto_value__6",
+              "_id": "page.company--fieldset--radios.auto_name__2--radio.auto_value__6",
               "_type": "radio",
               "hint": "Also known as a BenCom",
               "label": "Community Benefit Society",
@@ -95,7 +95,7 @@
           "name": "auto_name__2"
         },
         {
-          "_id": "page.page-one--fieldset--fieldset",
+          "_id": "page.company--fieldset--fieldset",
           "_type": "fieldset",
           "components": [
             {
@@ -103,7 +103,7 @@
               "$control": true,
               "$definition": true,
               "$field": true,
-              "_id": "page.page-one--fieldset--fieldset--text.auto_name__3",
+              "_id": "page.company--fieldset--fieldset--text.auto_name__3",
               "_type": "text",
               "label": "Address",
               "name": "auto_name__3"
@@ -113,30 +113,30 @@
               "$control": true,
               "$definition": true,
               "$field": true,
-              "_id": "page.page-one--fieldset--fieldset--text.auto_name__4",
+              "_id": "page.company--fieldset--fieldset--text.auto_name__4",
               "_type": "text",
               "label": "Postcode",
               "name": "auto_name__4"
             },
             {
-              "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5",
+              "_id": "page.company--fieldset--fieldset--radios.auto_name__5",
               "_type": "radios",
               "items": [
                 {
-                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__7",
+                  "_id": "page.company--fieldset--fieldset--radios.auto_name__5--radio.auto_value__7",
                   "_type": "radio",
                   "label": "Privately registered company",
                   "value": "privately-registered-company"
                 },
                 {
-                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__8",
+                  "_id": "page.company--fieldset--fieldset--radios.auto_name__5--radio.auto_value__8",
                   "_type": "radio",
                   "hint": "Select this if shares in the company’s stock are publicly traded on a stock exchange",
                   "label": "Publicly listed company",
                   "value": "publicly-listed-company"
                 },
                 {
-                  "_id": "page.page-one--fieldset--fieldset--radios.auto_name__5--radio.auto_value__9",
+                  "_id": "page.company--fieldset--fieldset--radios.auto_name__5--radio.auto_value__9",
                   "_type": "radio",
                   "hint": "Select this if this entity is not a private, registered company or a publicly listed company.",
                   "label": "Other legal entity",

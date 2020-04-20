@@ -5,7 +5,7 @@
   "heading": "Beneficial ownership declaration",
   "lede": "A demo form for collecting company beneficial ownership information",
   "steps": [
-    "page.page-one",
+    "page.company",
     "page.private-company",
     "page.public-company",
     "page.other-legal-entities",
