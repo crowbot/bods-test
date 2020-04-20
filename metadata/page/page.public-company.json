@@ -1,6 +1,57 @@
 {
   "_id": "page.public-company",
   "_type": "page.form",
+  "body": "",
+  "components": [
+    {
+      "_id": "page.public-company--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.public-company--fieldset--text.auto_name__15",
+          "_type": "text",
+          "label": "Legal Entity Identifier (LEI)",
+          "name": "auto_name__15"
+        },
+        {
+          "_id": "page.public-company--fieldset--text.auto_name__16",
+          "_type": "text",
+          "label": "International Securities Identifying Number (ISIN)",
+          "name": "auto_name__16"
+        }
+      ],
+      "legend": "Supply at least one of the following identifiers for the company:"
+    },
+    {
+      "_id": "page.public-company--fieldset--2",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.public-company--fieldset--2--text.auto_name__17",
+          "_type": "text",
+          "label": "Stock exchange name",
+          "name": "auto_name__17"
+        },
+        {
+          "_id": "page.public-company--fieldset--2--text.auto_name__18",
+          "_type": "text",
+          "label": "This company’s stock ticker or code",
+          "name": "auto_name__18"
+        },
+        {
+          "_id": "page.public-company--fieldset--2--text.auto_name__19",
+          "_type": "text",
+          "label": "Filings URL",
+          "name": "auto_name__19"
+        }
+      ],
+      "legend": "Filing",
+      "namespace": "namespace_auto__1",
+      "repeatable": true,
+      "repeatableHeading": "Stock exchange filings",
+      "repeatableLede": ""
+    }
+  ],
   "heading": "Publicly listed companies",
   "show": {
     "identifier": "type-of-company",
