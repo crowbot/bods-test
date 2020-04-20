@@ -156,5 +156,10 @@
   ],
   "enableSteps": true,
   "heading": "Company declaration",
+  "steps": [
+    "page.private-company",
+    "page.public-company",
+    "page.other-legal-entities"
+  ],
   "url": "company"
 }
