@@ -1,6 +1,48 @@
 {
   "_id": "page.state-ownership",
   "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.state-ownership--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.state-ownership--radios.auto_name__5--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.state-ownership--radios.auto_name__5--radio.auto_value__8",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "legend": "Does a state directly own or control this company to any degree?",
+      "name": "direct-state-control"
+    },
+    {
+      "_id": "page.state-ownership--radios.auto_name__5--2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.state-ownership--radios.auto_name__5--2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.state-ownership--radios.auto_name__5--2--radio.auto_value__7--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "legend": "Does a state indirectly own or control this company via an intermediate enterprise?",
+      "name": "indirect-state-control"
+    }
+  ],
   "heading": "State Ownership",
   "url": "state-ownership"
 }
