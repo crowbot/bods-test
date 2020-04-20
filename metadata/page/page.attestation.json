@@ -1,0 +1,38 @@
+{
+  "_id": "page.attestation",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.attestation--text.auto_name__5",
+      "_type": "text",
+      "label": "Your name",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.attestation--text.auto_name__20",
+      "_type": "text",
+      "label": "Your organisation",
+      "name": "auto_name__20"
+    },
+    {
+      "_id": "page.attestation--text.auto_name__21",
+      "_type": "text",
+      "label": "Your position at the organisation",
+      "name": "auto_name__21"
+    },
+    {
+      "_id": "page.attestation--text.auto_name__22",
+      "_type": "text",
+      "label": "Telephone number",
+      "name": "auto_name__22"
+    },
+    {
+      "_id": "page.attestation--email.auto_name__23",
+      "_type": "email",
+      "label": "Email address",
+      "name": "auto_name__23"
+    }
+  ],
+  "heading": "Your details",
+  "url": "attestation"
+}

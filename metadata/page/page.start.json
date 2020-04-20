@@ -10,7 +10,8 @@
     "page.public-company",
     "page.other-legal-entities",
     "page.beneficial-ownership",
-    "page.state-ownership"
+    "page.state-ownership",
+    "page.attestation"
   ],
   "url": "/"
 }
