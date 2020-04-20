@@ -8,14 +8,14 @@
       "$definition": true,
       "$field": true,
       "$select": true,
-      "_id": "page.private-company--autocomplete.auto_name__6",
+      "_id": "page.private-company--autocomplete.country-of-registration",
       "_type": "autocomplete",
       "items": [
         {
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option",
+          "_id": "page.private-company--autocomplete.country-of-registration--option",
           "_type": "option",
           "text": "United Kingdom",
           "value": "GB"
@@ -24,7 +24,7 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--2",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--2",
           "_type": "option",
           "text": "France",
           "value": "FR"
@@ -33,7 +33,7 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--3",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--3",
           "_type": "option",
           "text": "Germany",
           "value": "DE"
@@ -42,7 +42,7 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--4",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--4",
           "_type": "option",
           "text": "Spain",
           "value": "ES"
@@ -51,7 +51,7 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--5",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--5",
           "_type": "option",
           "text": "Portugal",
           "value": "PR"
@@ -60,7 +60,7 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--6",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--6",
           "_type": "option",
           "text": "Italy",
           "value": "IT"
@@ -69,44 +69,44 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.private-company--autocomplete.auto_name__6--option--7",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--7",
           "_type": "option",
           "text": "China",
           "value": "CN"
         },
         {
-          "_id": "page.private-company--autocomplete.auto_name__6--option--8",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--8",
           "_type": "option",
           "text": "Taiwan",
           "value": "TW"
         },
         {
-          "_id": "page.private-company--autocomplete.auto_name__6--option--9",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--9",
           "_type": "option",
           "text": "Romania",
           "value": "RO"
         },
         {
-          "_id": "page.private-company--autocomplete.auto_name__6--option--10",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--10",
           "_type": "option",
           "text": "Canada",
           "value": "CA"
         },
         {
-          "_id": "page.private-company--autocomplete.auto_name__6--option--11",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--11",
           "_type": "option",
           "text": "Mexico",
           "value": "MX"
         },
         {
-          "_id": "page.private-company--autocomplete.auto_name__6--option--12",
+          "_id": "page.private-company--autocomplete.country-of-registration--option--12",
           "_type": "option",
           "text": "United States of America",
           "value": "US"
         }
       ],
       "label": "Country of registration",
-      "name": "auto_name__6"
+      "name": "country-of-registration"
     },
     {
       "$component": true,
@@ -122,87 +122,87 @@
           "$control": true,
           "$definition": true,
           "$field": true,
-          "_id": "page.private-company--fieldset--text.auto_name__7",
+          "_id": "page.private-company--fieldset--text.registration-authority",
           "_type": "text",
           "hint": "Please supply either the org-id code for the registration authority (visit [http://org-id.guide](http://org-id.guide)) or supply the name of the registering authority (registrar) if there is no org-id entry.",
           "label": "Registration authority",
-          "name": "auto_name__7"
+          "name": "registration-authority"
         },
         {
           "$component": true,
           "$control": true,
           "$definition": true,
           "$field": true,
-          "_id": "page.private-company--fieldset--text.auto_name__8",
+          "_id": "page.private-company--fieldset--text.registration-id",
           "_type": "text",
           "hint": "This is the unique ID of the company as issued by the registration authority.",
           "label": "ID number or reference",
-          "name": "auto_name__8"
+          "name": "registration-id"
         }
       ],
       "legend": "Company registration ID"
     },
     {
-      "_id": "page.private-company--radios.auto_name__9",
+      "_id": "page.private-company--radios.owned-by-companies",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.private-company--radios.auto_name__9--radio.auto_value__9",
+          "_id": "page.private-company--radios.owned-by-companies--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__9"
+          "value": "yes"
         },
         {
-          "_id": "page.private-company--radios.auto_name__9--radio.auto_value__9--2",
+          "_id": "page.private-company--radios.owned-by-companies--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__9"
+          "value": "no"
         }
       ],
       "legend": "Does the company have one or more companies amongst its legal owners?",
-      "name": "auto_name__9"
+      "name": "owned-by-companies"
     },
     {
-      "_id": "page.private-company--radios.auto_name__10",
+      "_id": "page.private-company--radios.plc-interests",
       "_type": "radios",
       "hint": "A reportable company is a publicly listed company whose level of ownership and control over the disclosing entity (direct or indirect) meets the thresholds and criteria that qualify a natural person as a beneficial owner. So a reportable company is:\r\n\r\n<<Local definition here>>",
       "items": [
         {
-          "_id": "page.private-company--radios.auto_name__10--radio.auto_value__9",
+          "_id": "page.private-company--radios.plc-interests--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__9"
+          "value": "yes"
         },
         {
-          "_id": "page.private-company--radios.auto_name__10--radio.auto_value__9--2",
+          "_id": "page.private-company--radios.plc-interests--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__9"
+          "value": "no"
         }
       ],
       "legend": "Do any publicly listed companies have interests in the declaring company that makes them reportable?",
-      "name": "auto_name__10"
+      "name": "plc-interests"
     },
     {
-      "_id": "page.private-company--radios.auto_name__11",
+      "_id": "page.private-company--radios.has-beneficial-owners",
       "_type": "radios",
       "hint": "“A beneficial owner in respect of a company means the natural person(s) who directly or indirectly ultimately owns or controls the corporate entity” (EITI Standard, 2.5.f.i)\r\n\r\n“The multi-stakeholder group should agree an appropriate definition of the term beneficial owner. The definition should be aligned with (f)(i) above and take international norms and relevant national laws into account, and should include ownership threshold(s). The definition should also specify reporting obligations for politically exposed persons.” (EITI Standard, 2.5.f.ii)",
       "items": [
         {
-          "_id": "page.private-company--radios.auto_name__11--radio.auto_value__9",
+          "_id": "page.private-company--radios.has-beneficial-owners--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__9"
+          "value": "yes"
         },
         {
-          "_id": "page.private-company--radios.auto_name__11--radio.auto_value__9--2",
+          "_id": "page.private-company--radios.has-beneficial-owners--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__9"
+          "value": "no"
         }
       ],
       "legend": "Does the company have one or more beneficial owners?",
-      "name": "auto_name__11"
+      "name": "has-beneficial-owners"
     }
   ],
   "heading": "Privately registered companies",
