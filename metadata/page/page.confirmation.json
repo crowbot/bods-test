@@ -1,0 +1,6 @@
+{
+  "_id": "page.confirmation",
+  "_type": "page.content",
+  "heading": "Your declaration has been submitted",
+  "url": "confirmation"
+}

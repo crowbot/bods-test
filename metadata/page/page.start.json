@@ -7,7 +7,9 @@
   "steps": [
     "page.company",
     "page.state-ownership",
-    "page.attestation"
+    "page.attestation",
+    "page.check-answers",
+    "page.confirmation"
   ],
   "url": "/"
 }
