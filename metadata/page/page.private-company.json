@@ -3,106 +3,56 @@
   "_type": "page.form",
   "components": [
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "$select": true,
       "_id": "page.private-company--autocomplete.country-of-registration",
       "_type": "autocomplete",
       "items": [
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option",
+          "_id": "page.private-company--autocomplete.country-of-registration--blank",
           "_type": "option",
-          "text": "United Kingdom",
-          "value": "GB"
+          "text": "",
+          "value": ""
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--2",
+          "_id": "page.private-company--autocomplete.country-of-registration--xa",
           "_type": "option",
-          "text": "France",
-          "value": "FR"
+          "text": "Antegria",
+          "value": "XA"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--3",
+          "_id": "page.private-company--autocomplete.country-of-registration--xs",
           "_type": "option",
-          "text": "Germany",
-          "value": "DE"
+          "text": "Arstotzka",
+          "value": "XS"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--4",
+          "_id": "page.private-company--autocomplete.country-of-registration--xi",
           "_type": "option",
-          "text": "Spain",
-          "value": "ES"
+          "text": "Impor",
+          "value": "XI"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--5",
+          "_id": "page.private-company--autocomplete.country-of-registration--xk",
           "_type": "option",
-          "text": "Portugal",
-          "value": "PR"
+          "text": "Kolechia",
+          "value": "XK"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--6",
+          "_id": "page.private-company--autocomplete.country-of-registration--xo",
           "_type": "option",
-          "text": "Italy",
-          "value": "IT"
+          "text": "Obristan",
+          "value": "XO"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.private-company--autocomplete.country-of-registration--option--7",
+          "_id": "page.private-company--autocomplete.country-of-registration--xr",
           "_type": "option",
-          "text": "China",
-          "value": "CN"
+          "text": "Republia",
+          "value": "XR"
         },
         {
-          "_id": "page.private-company--autocomplete.country-of-registration--option--8",
+          "_id": "page.private-company--autocomplete.country-of-registration--xu",
           "_type": "option",
-          "text": "Taiwan",
-          "value": "TW"
-        },
-        {
-          "_id": "page.private-company--autocomplete.country-of-registration--option--9",
-          "_type": "option",
-          "text": "Romania",
-          "value": "RO"
-        },
-        {
-          "_id": "page.private-company--autocomplete.country-of-registration--option--10",
-          "_type": "option",
-          "text": "Canada",
-          "value": "CA"
-        },
-        {
-          "_id": "page.private-company--autocomplete.country-of-registration--option--11",
-          "_type": "option",
-          "text": "Mexico",
-          "value": "MX"
-        },
-        {
-          "_id": "page.private-company--autocomplete.country-of-registration--option--12",
-          "_type": "option",
-          "text": "United States of America",
-          "value": "US"
+          "text": "United Federation",
+          "value": "XU"
         }
       ],
       "label": "Country of registration",

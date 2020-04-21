@@ -27,22 +27,60 @@
           "name": "auto_name__7"
         },
         {
-          "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8",
+          "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration",
           "_type": "autocomplete",
           "items": [
             {
-              "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8--option",
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--blank",
               "_type": "option",
-              "text": "UK",
-              "value": "uk"
+              "text": "",
+              "value": ""
             },
             {
-              "_id": "page.ownership-by-companies--fieldset--autocomplete.auto_name__8--option--2",
-              "_type": "option"
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xa",
+              "_type": "option",
+              "text": "Antegria",
+              "value": "XA"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xs",
+              "_type": "option",
+              "text": "Arstotzka",
+              "value": "XS"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xi",
+              "_type": "option",
+              "text": "Impor",
+              "value": "XI"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xk",
+              "_type": "option",
+              "text": "Kolechia",
+              "value": "XK"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xo",
+              "_type": "option",
+              "text": "Obristan",
+              "value": "XO"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xr",
+              "_type": "option",
+              "text": "Republia",
+              "value": "XR"
+            },
+            {
+              "_id": "page.ownership-by-companies--fieldset--autocomplete.country-of-registration--xu",
+              "_type": "option",
+              "text": "United Federation",
+              "value": "XU"
             }
           ],
           "label": "Country of registration",
-          "name": "auto_name__8"
+          "name": "country-of-registration"
         },
         {
           "_id": "page.ownership-by-companies--fieldset--radios.auto_name__9",

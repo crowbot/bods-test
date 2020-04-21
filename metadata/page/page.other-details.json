@@ -7,18 +7,60 @@
       "_type": "fieldset",
       "components": [
         {
-          "_id": "page.other-details--fieldset--autocomplete.auto_name__27",
+          "_id": "page.other-details--fieldset--autocomplete.country-of-formation",
           "_type": "autocomplete",
           "items": [
             {
-              "_id": "page.other-details--fieldset--autocomplete.auto_name__27--option",
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--blank",
               "_type": "option",
-              "text": "United Kingdom",
-              "value": "gb"
+              "text": "",
+              "value": ""
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xa",
+              "_type": "option",
+              "text": "Antegria",
+              "value": "XA"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xs",
+              "_type": "option",
+              "text": "Arstotzka",
+              "value": "XS"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xi",
+              "_type": "option",
+              "text": "Impor",
+              "value": "XI"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xk",
+              "_type": "option",
+              "text": "Kolechia",
+              "value": "XK"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xo",
+              "_type": "option",
+              "text": "Obristan",
+              "value": "XO"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xr",
+              "_type": "option",
+              "text": "Republia",
+              "value": "XR"
+            },
+            {
+              "_id": "page.other-details--fieldset--autocomplete.country-of-formation--xu",
+              "_type": "option",
+              "text": "United Federation",
+              "value": "XU"
             }
           ],
           "label": "Country of formation",
-          "name": "auto_name__27"
+          "name": "country-of-formation"
         },
         {
           "_id": "page.other-details--fieldset--text.auto_name__28",
