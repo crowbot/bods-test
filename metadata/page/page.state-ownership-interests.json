@@ -1,0 +1,96 @@
+{
+  "_id": "page.state-ownership-interests",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.state-ownership-interests--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.state-ownership-interests--fieldset--select.auto_name__8",
+          "_type": "select",
+          "items": [
+            {
+              "_id": "page.state-ownership-interests--fieldset--select.auto_name__8--option",
+              "_type": "option",
+              "text": "Shareholding",
+              "value": "shareholding"
+            },
+            {
+              "_id": "page.state-ownership-interests--fieldset--select.auto_name__8--option--2",
+              "_type": "option",
+              "text": "Voting rights",
+              "value": "voting-rights"
+            },
+            {
+              "_id": "page.state-ownership-interests--fieldset--select.auto_name__8--option--3",
+              "_type": "option",
+              "text": "Appointment of board",
+              "value": "board"
+            },
+            {
+              "_id": "page.state-ownership-interests--fieldset--select.auto_name__8--option--4",
+              "_type": "option",
+              "text": "Other influence or control",
+              "value": "other"
+            }
+          ],
+          "label": "Type of interest",
+          "name": "auto_name__8"
+        },
+        {
+          "_id": "page.state-ownership-interests--fieldset--text.auto_name__27",
+          "_type": "text",
+          "hint": "e.g. “10%” or “5-10%”",
+          "label": "Percentage interest",
+          "name": "interest-amount"
+        },
+        {
+          "_id": "page.state-ownership-interests--fieldset--date.auto_name__27",
+          "_type": "date",
+          "legend": "Start date",
+          "name": "start",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "_id": "page.state-ownership-interests--fieldset--date.auto_name__27--2",
+          "_type": "date",
+          "legend": "End date",
+          "name": "end",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "_id": "page.state-ownership-interests--fieldset--radios.auto_name__27",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.state-ownership-interests--fieldset--radios.auto_name__27--radio.auto_value__21",
+              "_type": "radio",
+              "label": "Directly",
+              "value": "directly"
+            },
+            {
+              "_id": "page.state-ownership-interests--fieldset--radios.auto_name__27--radio.auto_value__21--2",
+              "_type": "radio",
+              "label": "Indirectly",
+              "value": "indirectly"
+            }
+          ],
+          "legend": "Is the interest held directly, or indirectly through an intermediate organisation?",
+          "name": "direct"
+        }
+      ],
+      "legend": "Interest",
+      "namespace": "namespace_auto__4",
+      "repeatable": true,
+      "repeatableAdd": "Add another interest",
+      "repeatableHeading": "Interests held in the declaring company by the state"
+    }
+  ],
+  "heading": "State ownership",
+  "url": "state-ownership-interests"
+}

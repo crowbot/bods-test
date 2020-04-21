@@ -43,6 +43,11 @@
       "name": "indirect-state-control"
     }
   ],
-  "heading": "State Ownership",
+  "enableSteps": true,
+  "heading": "State ownership",
+  "steps": [
+    "page.state-ownership-details",
+    "page.state-ownership-interests"
+  ],
   "url": "state-ownership"
 }

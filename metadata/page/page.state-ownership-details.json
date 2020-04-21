@@ -1,0 +1,116 @@
+{
+  "_id": "page.state-ownership-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.state-ownership-details--autocomplete.state-with-interest",
+      "_type": "autocomplete",
+      "items": [
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--blank",
+          "_type": "option",
+          "text": "",
+          "value": ""
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xa",
+          "_type": "option",
+          "text": "Antegria",
+          "value": "XA"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xs",
+          "_type": "option",
+          "text": "Arstotzka",
+          "value": "XS"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xi",
+          "_type": "option",
+          "text": "Impor",
+          "value": "XI"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xk",
+          "_type": "option",
+          "text": "Kolechia",
+          "value": "XK"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xo",
+          "_type": "option",
+          "text": "Obristan",
+          "value": "XO"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xr",
+          "_type": "option",
+          "text": "Republia",
+          "value": "XR"
+        },
+        {
+          "_id": "page.state-ownership-details--autocomplete.state-with-interest--xu",
+          "_type": "option",
+          "text": "United Federation",
+          "value": "XU"
+        }
+      ],
+      "label": "Which state has an interest in the declaring company?",
+      "name": "state-with-interest"
+    },
+    {
+      "_id": "page.state-ownership-details--textarea.auto_name__33",
+      "_type": "textarea",
+      "hint": "This is the department, regional authority, or office in which power over, and/or ownership of, the declaring company is vested (either directly or indirectly).",
+      "label": "Which part of the state holds interests in the declaring company?",
+      "name": "auto_name__33"
+    },
+    {
+      "_id": "page.state-ownership-details--radios.auto_name__34",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.state-ownership-details--radios.auto_name__34--radio.auto_value__17",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__17"
+        },
+        {
+          "_id": "page.state-ownership-details--radios.auto_name__34--radio.auto_value__18",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__18"
+        }
+      ],
+      "legend": "Does the state directly own or control the declaring company?",
+      "name": "auto_name__34"
+    },
+    {
+      "_id": "page.state-ownership-details--radios.auto_name__35",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.state-ownership-details--radios.auto_name__35--radio.auto_value__19",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__19"
+        },
+        {
+          "_id": "page.state-ownership-details--radios.auto_name__35--radio.auto_value__20",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__20"
+        }
+      ],
+      "legend": "Is the state’s interest in the declaring company the result of directly owning or controlling a legal owner of the declaring company? ",
+      "name": "auto_name__35",
+      "show": {
+        "identifier": "type-of-company",
+        "operator": "is",
+        "value": "privately-registered-company"
+      }
+    }
+  ],
+  "heading": "State ownership",
+  "url": "state-ownership-details"
+}
