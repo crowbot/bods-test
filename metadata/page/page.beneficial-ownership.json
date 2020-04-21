@@ -1,91 +1,156 @@
 {
   "_id": "page.beneficial-ownership",
   "_type": "page.form",
-  "body": "This page should be completed for each beneficial owner of the declaring company.",
   "components": [
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "_id": "page.beneficial-ownership--radios.auto_name__12",
-      "_type": "radios",
-      "items": [
+      "_id": "page.beneficial-ownership--fieldset",
+      "_type": "fieldset",
+      "components": [
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__9",
-          "_type": "radio",
-          "label": "Known person",
-          "value": "auto_value__9"
+          "_id": "page.beneficial-ownership--fieldset--radios.status",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known",
+              "_type": "radio",
+              "conditionalComponent": {
+                "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset",
+                "_type": "fieldset",
+                "components": [
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--text.auto_name__12",
+                    "_type": "text",
+                    "label": "Full legal name",
+                    "name": "full-name"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--date.auto_name__12",
+                    "_type": "date",
+                    "legend": "Date of birth",
+                    "name": "dob"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--text.auto_name__12--2",
+                    "_type": "text",
+                    "label": "Nationalities",
+                    "name": "nationalities"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--text.auto_name__12--3",
+                    "_type": "text",
+                    "label": "Tax residencies",
+                    "name": "tax",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--textarea.auto_name__12",
+                    "_type": "textarea",
+                    "hint": "This will not be made public.",
+                    "label": "Residential address",
+                    "name": "address",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.known--fieldset--text.auto_name__12--4",
+                    "_type": "text",
+                    "hint": "This will not be made public.",
+                    "label": "Postcode",
+                    "name": "postcode",
+                    "validation": {
+                      "required": false
+                    }
+                  }
+                ],
+                "legend": "Personal details"
+              },
+              "label": "Known person",
+              "value": "known"
+            },
+            {
+              "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown",
+              "_type": "radio",
+              "conditionalComponent": {
+                "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown",
+                "_type": "radios",
+                "items": [
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.cannot-confirm",
+                    "_type": "radio",
+                    "label": "The declaring company cannot confirm or identify a/this beneficial owner",
+                    "value": "cannot-confirm"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.not-provided",
+                    "_type": "radio",
+                    "label": "The beneficial owner has not provided information",
+                    "value": "not-provided"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.exempt",
+                    "_type": "radio",
+                    "label": "The beneficial owner is exempt from having their identity disclosed",
+                    "value": "exempt"
+                  },
+                  {
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.other",
+                    "_type": "radio",
+                    "conditionalComponent": {
+                      "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.other--text.more-detail",
+                      "_type": "text",
+                      "label": "Provide more details",
+                      "name": "more-detail"
+                    },
+                    "label": "Other",
+                    "value": "other"
+                  }
+                ],
+                "legend": "Why is this person anonymous or their identity unknown?",
+                "name": "why-unknown"
+              },
+              "label": "Unknown or anonymous",
+              "value": "unknown"
+            }
+          ],
+          "legend": "Status of beneficial owner",
+          "name": "status"
         },
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__10",
-          "_type": "radio",
-          "label": "Unknown person",
-          "value": "auto_value__10"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.beneficial-ownership--radios.auto_name__12--radio.auto_value__11",
-          "_type": "radio",
-          "label": "Anonymous person",
-          "value": "auto_value__11"
+          "_id": "page.beneficial-ownership--fieldset--radios.auto_name__12",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.beneficial-ownership--fieldset--radios.auto_name__12--radio.auto_value__9",
+              "_type": "radio",
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "_id": "page.beneficial-ownership--fieldset--radios.auto_name__12--radio.auto_value__9--2",
+              "_type": "radio",
+              "label": "No",
+              "value": "no"
+            }
+          ],
+          "legend": "Is this individual a Politically Exposed Person (PEP)?",
+          "name": "pep"
         }
       ],
-      "legend": "Status of beneficial owner",
-      "name": "auto_name__12"
-    },
-    {
-      "_id": "page.beneficial-ownership--radios.auto_name__13",
-      "_type": "radios",
-      "items": [
-        {
-          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__12",
-          "_type": "radio",
-          "label": "The declaring company cannot confirm or identify a/this beneficial owner",
-          "value": "auto_value__12"
-        },
-        {
-          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__13",
-          "_type": "radio",
-          "label": "The beneficial owner has not provided information",
-          "value": "auto_value__13"
-        },
-        {
-          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__14",
-          "_type": "radio",
-          "label": "The beneficial owner is exempt from having their identity disclosed",
-          "value": "auto_value__14"
-        },
-        {
-          "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__15",
-          "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.beneficial-ownership--radios.auto_name__13--radio.auto_value__15--text.auto_name__14",
-            "_type": "text",
-            "label": "Provide more details here if necessary",
-            "name": "auto_name__14"
-          },
-          "label": "Other",
-          "value": "auto_value__15"
-        }
-      ],
-      "legend": "Why is this person anonymous or their identity unknown?",
-      "name": "auto_name__13"
+      "legend": "Beneficial owner",
+      "namespace": "namespace_auto__5",
+      "repeatable": true,
+      "repeatableAdd": "Add another owner"
     }
   ],
-  "heading": "Beneficial owner declaration",
-  "lede": "A beneficial owner is defined as: <<Add local definition here, including PEP reporting obligations>>",
+  "heading": "Beneficial owners",
+  "lede": "Provide details for each beneficial owner of the declaring company.",
   "show": {
-    "identifier": "type-of-company",
+    "identifier": "has-beneficial-owners",
     "operator": "is",
-    "value": "privately-registered-company"
+    "value": "yes"
   },
   "url": "beneficial-ownership"
 }
