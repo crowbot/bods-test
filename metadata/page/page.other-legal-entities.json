@@ -1,11 +1,57 @@
 {
   "_id": "page.other-legal-entities",
   "_type": "page.form",
-  "heading": "Other legal entities",
+  "components": [
+    {
+      "_id": "page.other-legal-entities--radios.is-state-owned",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.other-legal-entities--radios.is-state-owned--radio.yes",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.other-legal-entities--radios.is-state-owned--radio.no",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "legend": "Is the entity a State Owned Enterprise (SOE)?",
+      "name": "is-state-owned"
+    },
+    {
+      "_id": "page.other-legal-entities--radios.is-specific-legislation",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.other-legal-entities--radios.is-specific-legislation--radio.yes",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.other-legal-entities--radios.is-specific-legislation--radio.no",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "legend": "Was the entity formed by specific legislation?",
+      "name": "is-specific-legislation"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Other legal entity",
   "show": {
     "identifier": "type-of-company",
     "operator": "is",
     "value": "other-legal-entity"
   },
+  "steps": [
+    "page.other-details"
+  ],
   "url": "other-legal-entities"
 }

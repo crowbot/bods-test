@@ -1,0 +1,87 @@
+{
+  "_id": "page.other-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.other-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.other-details--fieldset--autocomplete.auto_name__27",
+          "_type": "autocomplete",
+          "items": [
+            {
+              "_id": "page.other-details--fieldset--autocomplete.auto_name__27--option",
+              "_type": "option",
+              "text": "United Kingdom",
+              "value": "gb"
+            }
+          ],
+          "label": "Country of formation",
+          "name": "auto_name__27"
+        },
+        {
+          "_id": "page.other-details--fieldset--text.auto_name__28",
+          "_type": "text",
+          "hint": "e.g. a Trust",
+          "label": "Type of legal entity",
+          "name": "auto_name__28"
+        },
+        {
+          "_id": "page.other-details--fieldset--textarea.auto_name__29",
+          "_type": "textarea",
+          "hint": "How is this legal entity owned and controlled?",
+          "label": "Description of legal ownership and control",
+          "name": "auto_name__29"
+        }
+      ],
+      "legend": "About the state owned enterprise",
+      "show": {
+        "identifier": "is-state-owned",
+        "operator": "is",
+        "value": "yes"
+      }
+    },
+    {
+      "_id": "page.other-details--fieldset--2",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.other-details--fieldset--2--text.auto_name__30",
+          "_type": "text",
+          "label": "Title of legislation",
+          "name": "auto_name__30"
+        },
+        {
+          "_id": "page.other-details--fieldset--2--date.auto_name__31",
+          "_type": "date",
+          "legend": "Date of legislation",
+          "name": "auto_name__31"
+        }
+      ],
+      "legend": "About the legislation that formed the entity",
+      "show": {
+        "identifier": "is-specific-legislation",
+        "operator": "is",
+        "value": "yes"
+      }
+    }
+  ],
+  "heading": "Other legal entity",
+  "show": {
+    "any": [
+      {
+        "identifier": "is-state-owned",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "is-specific-legislation",
+        "operator": "is",
+        "value": "yes"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "details"
+}

@@ -206,7 +206,7 @@
     }
   ],
   "enableSteps": true,
-  "heading": "Privately registered companies",
+  "heading": "Privately registered company",
   "show": {
     "identifier": "type-of-company",
     "operator": "is",

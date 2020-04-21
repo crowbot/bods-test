@@ -52,7 +52,7 @@
       "repeatableLede": ""
     }
   ],
-  "heading": "Publicly listed companies",
+  "heading": "Publicly listed company",
   "show": {
     "identifier": "type-of-company",
     "operator": "is",
