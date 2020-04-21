@@ -1,9 +1,9 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "",
+  "body": "## What you will need\r\n\r\n* Information about your company, including its official address and identification numbers.\r\n* Information about organisations that hold significant control over your company, including registration details and ownership shares.\r\n* Information about individuals who hold significant control over your company, including personal details, identification documents, and details of voting rights or shareholdings.\r\n\r\n",
   "heading": "Beneficial ownership declaration",
-  "lede": "A demo form for collecting company beneficial ownership information",
+  "lede": "This form will guide you through the process of supplying the required beneficial ownership information about your company.",
   "steps": [
     "page.company",
     "page.state-ownership",
