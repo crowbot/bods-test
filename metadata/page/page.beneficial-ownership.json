@@ -74,32 +74,32 @@
               "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown",
               "_type": "radio",
               "conditionalComponent": {
-                "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown",
+                "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset",
                 "_type": "radios",
                 "items": [
                   {
-                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.cannot-confirm",
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset--radio.cannot-confirm",
                     "_type": "radio",
                     "label": "The declaring company cannot confirm or identify a/this beneficial owner",
                     "value": "cannot-confirm"
                   },
                   {
-                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.not-provided",
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset--radio.not-provided",
                     "_type": "radio",
                     "label": "The beneficial owner has not provided information",
                     "value": "not-provided"
                   },
                   {
-                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.exempt",
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset--radio.exempt",
                     "_type": "radio",
                     "label": "The beneficial owner is exempt from having their identity disclosed",
                     "value": "exempt"
                   },
                   {
-                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.other",
+                    "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset--radio.other",
                     "_type": "radio",
                     "conditionalComponent": {
-                      "_id": "page.beneficial-ownership--fieldset--radios.status--radio.anonymous--radios.why-unknown--radio.other--text.more-detail",
+                      "_id": "page.beneficial-ownership--fieldset--radios.status--radio.unknown--fieldset--radio.other--text.more-detail",
                       "_type": "text",
                       "label": "Provide more details",
                       "name": "more-detail"
@@ -109,7 +109,7 @@
                   }
                 ],
                 "legend": "Why is this person anonymous or their identity unknown?",
-                "name": "why-unknown"
+                "name": "why_unknown"
               },
               "label": "Unknown or anonymous",
               "value": "unknown"
