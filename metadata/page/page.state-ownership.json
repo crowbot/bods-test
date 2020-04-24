@@ -45,6 +45,21 @@
   ],
   "enableSteps": true,
   "heading": "State ownership",
+  "showSteps": {
+    "any": [
+      {
+        "identifier": "direct-state-control",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "indirect-state-control",
+        "operator": "is",
+        "value": "yes"
+      }
+    ],
+    "conditionsType": "any"
+  },
   "steps": [
     "page.state-ownership-details",
     "page.state-ownership-interests"
