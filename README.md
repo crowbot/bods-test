@@ -8,7 +8,7 @@ This Git repository contains all of the configuration for the prototype form.
 
 ## How to use this locally
 
-1. Install the MoJ [Form Builder Editor Console](https://github.com/ministryofjustice/fb-editor-console-electron). At current this appears to be Mac-only.
+1. Install the MoJ [Form Builder Editor Console](https://github.com/ministryofjustice/fb-editor-console-electron). Currently this appears to be Mac-only.
 2. Open the Form Builder Editor Console app, and select “Add an existing form” from the navigation bar.
 3. Paste this repository’s URL into the text input:
 
