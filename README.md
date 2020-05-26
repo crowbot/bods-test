@@ -6,7 +6,7 @@ We used the [Ministry of Justice’s form builder tool](https://github.com/minis
 
 This Git repository contains all of the configuration for the prototype form.
 
-## How to use this locally
+## How to get this running locally
 
 1. Install the MoJ [Form Builder Editor Console](https://github.com/ministryofjustice/fb-editor-console-electron). Currently this appears to be Mac-only.
 2. Open the Form Builder Editor Console app, and select “Add an existing form” from the navigation bar.
@@ -18,6 +18,28 @@ This Git repository contains all of the configuration for the prototype form.
 5. You can now launch the Editor UI for the form by pressing the “Start” link next to the form’s name.
 
 If you don’t want to use the Editor Console, or you’re using a platform that isn’t supported by the Editor Console app, then you _might_ be able to get the form running by installing and configuring the underlying [fb-editor-node](https://github.com/ministryofjustice/fb-editor-node) and [fb-runner-node](https://github.com/ministryofjustice/fb-runner-node) libraries on their own.
+
+## How to use the editor
+
+Press the “Start” link next to the bods-test form, and the form-builder editor interface will open in your browser.
+
+![Form Builder Editor Console](docs/console.png)
+
+At a fundamental level, the form is separated into ‘Pages’ that follow on from one another.
+
+![Pages displayed in the editor](docs/flow.png)
+
+But if you “Enable steps” on a page, then you’ll be able to add new pages _as follow-on steps_ from that parent page, and you’ll be able to show those sub-steps conditionally, based on answers given earlier in the form.
+
+![Enabling steps on a page](docs/edit.png)
+
+You can add or edit the steps that follow on from a particular page, using the “Step settings” dropdown menu.
+
+![Editing steps for a page](docs/step-settings.png)
+
+You can use the “Run form” link in the top right corner, to try the form out.
+
+![Running the form](docs/run.png)
 
 ## How to commit and push changes to the form
 
