@@ -1,6 +1,6 @@
 # Prototype of a form for collecting BODS-compliant data, using the MoJ Form Builder tool
 
-This form was an early prototype of collecting [BODS](http://standard.openownership.org/en/0.2.0/)-compliant data at the point that a supplier might be registering with a local or national government procurement platform.
+This form was an early prototype of collecting [BODS](http://standard.openownership.org/en/0.2.0/)-compliant beneficial ownership data at the point that a supplier might be registering with a local or national government procurement platform.
 
 We used the [Ministry of Justice’s form builder tool](https://github.com/ministryofjustice/fb-editor-console-electron) to help us quickly put together a fully-functional prototype.
 
